@@ -1,3 +1,9 @@
+# How to use
+
+You can browse the products on the home page and filter them with quantity and price.
+To edit or add a new product, you first need to login to the app.
+you can also search the products via the product's name.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
