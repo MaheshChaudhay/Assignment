@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  width: 300px;
+  box-shadow: 0 2px 8px #00000042;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-desc {
+  padding: 0.5rem;
+}
+
+.product-desc p {
+  text-align: center;
+}
+
+.product-price {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

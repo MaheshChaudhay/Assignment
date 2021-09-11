@@ -1,0 +1,18 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-bottom: 0.1rem solid lightgray;
+}
+
+.filter-product {
+  flex: 1;
+}
+
+span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,79 @@
+.product-form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: block;
+  box-shadow: 0 2px 8px #00000042;
+  border: 1px solid #00695c;
+  border-radius: 5px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.product-price {
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 0.5rem;
+}
+
+.product-desc {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00695c;
+  color: white;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 90%;
+  margin-bottom: 0.25rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid #a1a1a1;
+  font: inherit;
+  border-radius: 2px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline-color: #00695c;
+}
+
+.form-control input.invalid,
+.form-control textarea.invalid {
+  border-color: red;
+}
+
+.error {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  color: red;
+  text-align: center;
+}
